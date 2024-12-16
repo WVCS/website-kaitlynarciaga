@@ -1,3 +1,16 @@
-body {
-
+{
+  background-color: skyblue;
+}
+h6 
+{
+   color: navy;
+  font-size: 200%;
+  font-family: arial;
+  text-decoration: underline yellow 6px;
+}
+img
+{
+  width: 20%;
+  border: dotted 8px yellow, blue;
+  
 }
