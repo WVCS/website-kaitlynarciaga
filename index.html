@@ -1,15 +1,21 @@
 <html>
-<head>
+ <head>
   </head>
   
-   <body>
-     <center>
-       <h6> Kaitlyn's Website </h6>
-       <a href= "index2.html">
-          <img src="https://images.freeimages.com/images/large-previews/ee0/joyful-puppy-splashing-happiness-0410-5697282.jpg?fmt=webp&w=500">
-       </a>
-   </body>
-
+  <body>
+    <center>
+    <h1 id="title"> Projects </h1>
+    <h1 id="list1" href= "https://scratch.mit.edu/projects/1058881703"> Everything List
+    </h1>
+    <h1 id="list2"> Movie Finder
+    </h1>
+    <h1 id="list3"> Flower Drawing
+    </h1> 
+    <h1 id="list4"> Fish Catcher
+    </h1>
+      </center>
+  </body>
+  
 </html>
 
 <style>
@@ -21,7 +27,7 @@ h6
 {
    color: #22223B;
   font-size: 300%;
-  font-family: arial;
+  font-family: small-caps;
   text-shadow: 2px 2px #9a8c98;
   text-decoration: underline overline
 }
@@ -29,11 +35,32 @@ img
 {
   width: 10%;
   border: dotted 8px yellow, blue;
-  margin-left: 100px;
   
 }
 
-img:link {
-  
+ul{
+  list-style:none;
+  background-color: #9a8c98;
+  width: 100%; 
+  margin:0;
+  position: fixed; 
+  left: 0;
+  right: 10;
+  opacity: 0.6;
+}
+li{
+  display: inline;
+  padding: 12px 60px;
+  float: right;
+}
+a{
+  text-decoration: none;
+  color: #22223B;
+  font-variant: small-caps;
+}
+li a:hover {
+  background-color: #F2E9E4; 
+  padding: 18px 18px;
+  opacity: 1;
 }
 </style>
